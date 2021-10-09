@@ -1,0 +1,26 @@
+{
+  "name": "corona_virus_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khawlabenmansour13/PythonProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khawlabenmansour13/PythonProject/issues"
+  },
+  "homepage": "https://github.com/Khawlabenmansour13/PythonProject#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "postcss-cli": "^9.0.1",
+    "tailwindcss": "^2.2.16"
+  }
+}

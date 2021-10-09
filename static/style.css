@@ -1,3 +1,4 @@
+
 :root {
     --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     --msger-bg: #fff;
@@ -123,6 +124,7 @@
     padding: 10px;
     border-top: var(--border);
     background: #eee;
+
   }
   .msger-inputarea * {
     padding: 10px;
@@ -133,18 +135,25 @@
   .msger-input {
     flex: 1;
     background: #ddd;
+    padding: 10px;
+    border-radius: 50px;
+
   }
   .msger-send-btn {
-    margin-left: 10px;
-    background: rgb(0, 196, 65);
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background 0.23s;
+    width: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    
+    background: #4753c7;
+    outline: none;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .msger-send-btn:hover {
-    background: rgb(0, 180, 50);
-  }
+  
   
   .msger-chat {
     background-color: #fcfcfe;
